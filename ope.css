@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(49, 49, 49, 0.383);
+}
+
+.container{
+    margin: 1rem auto;
+}
+
+.form-title{
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 0.2rem;
+}
+
+.underline{
+    margin: 0 auto;
+    border: 2px solid #6b92e5;
+    width: 5%;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.form-container{
+    display: flex;
+    width: 700px;
+    margin: 3rem auto;
+    background-color: #111;
+    border: 10px;
+    height: 700px;
+    padding: 70px 30px 30px 30px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #1071a2,
+                 -5px -5px 10px #1699db;
+}
+
+.FirstName,
+.LastName,
+.EnterPassword,
+.ConfirmPassword {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border-radius: 33px;
+    background: #111;
+}
+
+.signing-button {
+    border:none;
+    cursor:pointer;
+    outline:none;
+    height:60px;
+    width:100%;
+    font-size:20px;
+    border-radius:30px;
+    font-weight:700;
+    font-family: 'Lato', sans-serif;
+    color:#111;
+    text-align:center;
+}
+              
